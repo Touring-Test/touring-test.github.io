@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<h1>{{ page.date | date: "%Y-%m-%d" }} 
+       {{ page.origin_locn }}
+<small>{{ page.origin_moor }}</small>
+{% if page.offshore_percentage and page.offshore_percentage > 0 %}
+<br/><small>via {{ page.offshore_percentage }}% offshore</small><br/>
+{% endif %}
+to 
+       {{ page.terminus_locn }} 
+<small>{{ page.terminus_moor }}</small>
+</h1>
+
+
+{% if page.destination and page.destination != page.terminus_locn %}
+<h2>planned destination was {{ page.destination }}</h2>
+{% endif %}
+
+<table>
+  <tr><th>Vessel               </th><td>{{ page.tags[0] | split: '_' | last  }}</td></tr>
+  <tr><th>Mission              </th><td>{{ page.mission    }}</td></tr>
+  {% if page.distance_planned_NM %}
+  <tr><th>Distance (planned)   </th>        
+      <td>{{ page.distance_planned_NM }}</td><td>NM</td>
+      {% if page.destination == page.terminus_locn %}
+      <td>{{ page.distance_planned_NM | times: 1.0 | divided_by: page.duration_h | round:1 }}</td><td>knots</td>
+      {% endif %}
+  {% endif %}
+  </tr>
+  <tr><th>Distance (travelled) </th>        
+      <td>{{ page.distance_traveld_NM }}</td><td>NM</td>
+      <td>{{ page.distance_traveld_NM | times: 1.0 | divided_by: page.duration_h | round:1 }}</td><td>knots</td>
+  </tr>
+  <tr><th>Duration             </th><td>{{ page.duration_h }}</td><td>hours</td></tr>
+  {% if page.max_speed %}
+  <tr><th>max speed            </th><td/><td/><td>  {{ page.max_speed  }}</td><td>knots</td></tr>
+  {% endif %}
+  <tr><th>Conditions           </th><td colspan="4">{{ page.conditions }}</td></tr>
+  <tr><th>Skipper              </th><td>            {{ page.skipper    }}</td>
+      <th>Crew                 </th><td colspan="2">{{ page.crew       }}</td>
+  </tr>
+  {% if page.guests %}
+  <tr><th>Guests               </th><td>            {{ page.guests     }}</td></tr>
+  {% endif %}
+</table>
+
+<h2>Boran's Notes</h2>
+{{ content }}
+
+{% if page.gps_track %}
+<h2><a href="{{ page.gps_track }}">GPS Track</a></h2>
+{% endif %}
+
+{% if page.photos %}
+<h2><a href="{{ page.photos }}">Photos</a></h2>
+{% endif %}
