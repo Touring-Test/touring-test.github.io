@@ -7,7 +7,7 @@ destination  : Porto
 terminus_locn: Porto
 terminus_moor: anchor
 distance_planned_NM: 213
-distance_traveld_NM: 264
+distance_traveld_NM: 268
 offshore_percentage:  60
 duration_h         :  65
 max_speed          :   7.7 

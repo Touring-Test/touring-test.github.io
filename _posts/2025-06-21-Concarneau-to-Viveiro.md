@@ -7,7 +7,7 @@ destination  : Porto
 terminus_locn: Viveiro
 terminus_moor: anchor
 distance_planned_NM: 
-distance_traveld_NM: 452
+distance_traveld_NM: 344
 offshore_percentage:  90
 duration_h         :  93
 max_speed          :   
