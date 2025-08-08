@@ -1,10 +1,10 @@
 ---
 tag          : vessel_Maru
 mission      : Transport
-origin_locn  : Großenbrode
+origin_locn  : Großenbrode (DE)
 origin_moor  : marina
-destination  : Gedser
-terminus_locn: Gedser
+destination  : Gedser (DK)
+terminus_locn: Gedser (DK)
 terminus_moor: marina
 distance_planned_NM: 
 distance_traveld_NM: 36

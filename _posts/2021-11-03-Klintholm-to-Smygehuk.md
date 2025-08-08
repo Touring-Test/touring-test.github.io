@@ -1,10 +1,10 @@
 ---
 tag          : vessel_Maru
 mission      : Transport
-origin_locn  : Klintholm
+origin_locn  : Klintholm (DK)
 origin_moor  : marina
-destination  : Smygehuk
-terminus_locn: Smygehuk
+destination  : Smygehuk (SE)
+terminus_locn: Smygehuk (SE)
 terminus_moor: marina
 distance_planned_NM: 
 distance_traveld_NM: 42

@@ -1,19 +1,20 @@
 ---
 tag          : vessel_Maru
 mission      : Touring
-origin_locn  : Hvide Sande
+origin_locn  : Hvide Sande (DK)
 origin_moor  : marina
-destination  : Norderney
-terminus_locn: Vlieland
+destination  : Norderney (DE)
+terminus_locn: Vlieland (NL)
 terminus_moor: marina
 distance_planned_NM: 
-distance_traveld_NM: 210
+distance_traveld_NM: 215
 offshore_percentage:  70
 duration_h         :  38
 max_speed          :   
 conditions   : strong to gale from behind
 skipper      : Boran
 crew         : solo
+gps_track    : https://connect.garmin.com/modern/activity/9512322976
 ---
 I had been very nervous before this trip, for reasons unknown to me. 
 
