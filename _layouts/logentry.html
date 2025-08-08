@@ -8,14 +8,15 @@ layout: default
 <br/><small>via {{ page.offshore_percentage }}% offshore</small><br/>
 {% endif %}
 to 
+{% if page.destination and page.destination != page.terminus_locn %}
+<s>{{ page.destination }}</s>
+{% endif %}
+{% if page.destination == page.terminus_locn %}<b>{% endif %}
        {{ page.terminus_locn }} 
+{% if page.destination == page.terminus_locn %}</b>{% endif %}
 <small>{{ page.terminus_moor }}</small>
 </h1>
 
-
-{% if page.destination and page.destination != page.terminus_locn %}
-<h2>planned destination was {{ page.destination }}</h2>
-{% endif %}
 
 <table>
   <tr><th>Vessel               </th><td>{{ page.tags[0] | split: '_' | last  }}</td></tr>
