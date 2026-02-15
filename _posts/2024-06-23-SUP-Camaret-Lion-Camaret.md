@@ -9,7 +9,7 @@ terminus_moor: + retour
 distance_planned_NM: 
 distance_traveld_NM: 6
 offshore_percentage:
-duration_h         : 3.3
+duration_h         : 3
 max_speed          : 3.8
 conditions   : waves and tidal current as expected
 crew         : solo
