@@ -11,10 +11,10 @@ layout: default
   {% assign total_tours = total_tours | plus: 1 %}
 {% endfor %}
 
-| ---           | ---               |
-| Total Miles   | {{ total_miles }} |
-| Total Hours   | {{ total_hours }} |
-| Total # Tours | {{ total_tours }} |
+| ---            | --:               | --             |
+| Total Distance | {{ total_miles }} | nautical miles |
+| Total Time     | {{ total_hours | divided_by: 24 | round: 0 }} | days
+| Total #        | {{ total_tours }} | voyages |
 
 ## Tour Index
 

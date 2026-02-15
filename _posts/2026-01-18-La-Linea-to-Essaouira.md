@@ -6,7 +6,7 @@ origin_moor  : anchor
 destination  : Lanzarote
 terminus_locn: Essaouira
 terminus_moor: Fishing Port
-distance_planned_NM: 
+distance_planned_NM: 600
 distance_traveld_NM: 496
 offshore_percentage:  70
 duration_h         : 121
