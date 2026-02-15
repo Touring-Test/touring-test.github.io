@@ -6,7 +6,7 @@ origin_moor  : Fishing Port
 destination  : 
 terminus_locn: Lanzarote
 terminus_moor: marina
-distance_planned_NM: 
+distance_planned_NM: 250
 distance_traveld_NM: 378
 offshore_percentage:  90
 duration_h         : 112

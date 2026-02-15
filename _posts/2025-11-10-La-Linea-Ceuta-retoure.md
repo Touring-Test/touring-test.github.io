@@ -8,7 +8,7 @@ terminus_locn: La Línea
 terminus_moor: anchor (via Ceuta non-stop)
 distance_planned_NM: 
 distance_traveld_NM: 44
-offshore_percentage: 30%
+offshore_percentage: 30
 duration_h         : 11
 max_speed          : 9.5
 conditions   : moderate breeze

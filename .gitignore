@@ -5,3 +5,4 @@ _site
 exports/
 _bak/
 template
+.aider*

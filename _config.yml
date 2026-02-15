@@ -25,7 +25,7 @@ email: koordinator@goegetap.name
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 description: |-
-   logbook of signed entries of sailing tours that involve Boran in any role (crew member or skipper)
+   logbook of sailing tours that involve Boran in any role (crew member or skipper)
    serving as a single source of truth, both for formal documentation and as a simple blog
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -60,6 +60,7 @@ defaults:
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
+#   - .aider*/
 #   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
