@@ -52,10 +52,26 @@ to
 <h2>Boran's Notes</h2>
 {{ content }}
 
+{% if page.gps_track or page.photos %}<b>Media: </b>{% endif %}
 {% if page.gps_track %}
-<h2><a href="{{ page.gps_track }}">GPS Track</a></h2>
+<a href="{{ page.gps_track }}">GPS Track</a>
 {% endif %}
 
 {% if page.photos %}
-<h2><a href="{{ page.photos }}">Photos</a></h2>
+<a href="{{ page.photos }}">Photos</a>
 {% endif %}
+<div style="clear:both"></div>
+
+<hr/><br/>
+
+<div align="center">previous / following passage </div>
+
+{% if page.previous %}
+  <a style="float: left" href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>
+{% endif %}
+
+{% if page.next %}
+  <a style="float:right" href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>
+{% endif %}
+<div style="clear:both"></div>
+
