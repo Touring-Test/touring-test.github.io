@@ -18,11 +18,12 @@ layout: default
 
 ## Tour Index
 
-|Date|from|off- shore %|to |dist (NM)|time (hours)|avg speed (kn)|Crew|Skipper|Vessel|hyper- links|
-|--- |--- | :--:       |---| --:     | --:        | --:          |---|---|---|---| {%
+|Date|from|via|off- shore %|to |dist (NM)|time (hours)|avg speed (kn)|Crew|Skipper|Vessel|hyper- links|
+|--- |--- |---|  :--:      |---| --:     | --:        | --:          |---|---|---|---| {%
  for post in site.posts %}
 | [{{ post.date | date: "%Y-%m-%d" }}]({{ post.url | relative_url }}) | {{
- post.origin_locn }} | {{ 
+ post.origin_locn         }} | {{ 
+ post.via                 }} | {{ 
  post.offshore_percentage }} | {{ 
  post.terminus_locn       }} | {{ 
  post.distance_traveld_NM }} | {{ 

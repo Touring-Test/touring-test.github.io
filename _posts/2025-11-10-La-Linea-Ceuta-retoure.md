@@ -3,9 +3,11 @@ tag          : vessel_A Perfect World
 mission      : Special Event
 origin_locn  : La Línea
 origin_moor  : anchor
+via          : Ceuta
+via_moor     : non-stop
 destination  : 
 terminus_locn: La Línea
-terminus_moor: anchor (via Ceuta non-stop)
+terminus_moor: anchor
 distance_planned_NM: 
 distance_traveld_NM: 44
 offshore_percentage: 30

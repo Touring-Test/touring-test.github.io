@@ -3,12 +3,14 @@ tag          : vessel_Blues
 mission      : Special Event
 origin_locn  : Camaret
 origin_moor  : marina
+via          : Pentrez
+via_moor     : anchor
 destination  : 
 terminus_locn: Camaret 
-terminus_moor: via Pentrez on anchor
+terminus_moor: anchor
 distance_planned_NM: 
 distance_traveld_NM: 70
-offshore_percentage:
+offshore_percentage:  
 duration_h         : 19
 max_speed          :  4.6
 conditions   : light to moderate
@@ -17,11 +19,15 @@ skipper      : Boran
 gps_track    : https://connect.garmin.com/modern/activity/19167773812
 photos       : 
 ---
-Special trip with Carole to dear friends.
+Special trip with Carole.
+
+Anchored over night. Visited Kira, Isa & Flo next morning.
 
 Sailed without engine because the old one was defective and the new one has not arrived yet.
 
-Challenging anchor approach 
+Attempted to anchor in 70m on way back, near Cap de la Chevre, because of total calm.
+
+Challenging anchor approach at destination: moderate breeze from North, making final approach to the West coast fast, and pushing the boat South (towards quai) after stopping. No engines for corrections. This is almost like an airplane approach with only one attempt.
 
 ## Incidents
 

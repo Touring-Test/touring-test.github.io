@@ -4,8 +4,11 @@ layout: default
 <h1>{{ page.date | date: "%Y-%m-%d" }} 
        {{ page.origin_locn }}
 <small>{{ page.origin_moor }}</small>
-{% if page.offshore_percentage and page.offshore_percentage > 0 %}
-<br/><small>via {{ page.offshore_percentage }}% offshore</small><br/>
+{% if page.offshore_percentage or  page.via %}
+<br/><small>via {{ page.via }} {{  page.via_moor }} {%
+   if page.offshore_percentage and page.via %}<br/>{% endif %} {%
+   if page.offshore_percentage
+%} {{ page.offshore_percentage }}% offshore {% endif %} </small><br/>
 {% endif %}
 to 
 {% if page.destination and page.destination != page.terminus_locn %}

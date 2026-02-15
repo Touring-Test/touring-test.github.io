@@ -3,9 +3,11 @@ tag          : vessel_Blues
 mission      : Special Event
 origin_locn  : Camaret
 origin_moor  : marina
+via          : Pentrez
+via_moor     : anchor
 destination  : 
 terminus_locn: Camaret 
-terminus_moor: via Pentrez on anchor
+terminus_moor: marina
 distance_planned_NM: 
 distance_traveld_NM: 48
 offshore_percentage:
@@ -22,7 +24,7 @@ Special trip with two purposes:
 1. to honour the winter solstice
 1. to visit very special friends at Pentrez
 
-Engine worked on the first part of the trip, when I used it to compensate the very calm wind. Anchoring and lifting the anchor I did without trying engine support anyway. On the way back, the engine failed sporadically and more and more frequently, making it useless.
+Epropulsion engine worked on the first part of the trip, when I used it to compensate the very calm wind. Anchoring and lifting the anchor I did without trying engine support anyway. On the way back, the engine failed sporadically and more and more frequently, making it useless.
 
 ## Encounters
 
