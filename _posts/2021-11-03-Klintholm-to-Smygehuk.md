@@ -11,7 +11,7 @@ distance_traveld_NM: 42
 offshore_percentage: 20
 duration_h         : 11
 conditions   : calm to gentle breeze
-crew         : solo
+crew         : 
 skipper      : Boran
 gps_track    : https://connect.garmin.com/modern/activity/7762455711
 ---

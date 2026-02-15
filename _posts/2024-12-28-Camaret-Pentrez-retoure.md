@@ -14,7 +14,7 @@ offshore_percentage:
 duration_h         : 16
 max_speed          :  3
 conditions   : very calm
-crew         : solo
+crew         : 
 skipper      : Boran
 gps_track    : https://connect.garmin.com/modern/activity/17874467941
 photos       : https://photos.app.goo.gl/gfNc9pV9kd8XmWFU8

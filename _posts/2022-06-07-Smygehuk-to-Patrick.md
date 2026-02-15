@@ -12,7 +12,7 @@ offshore_percentage:
 duration_h         : 20
 max_speed          :  9
 conditions   : moderate to fresh breeze
-crew         : solo
+crew         : 
 skipper      : Boran
 gps_track    : 
 photos       : 

@@ -12,7 +12,7 @@ offshore_percentage:  0
 duration_h         :  8
 max_speed          : 12
 conditions   : 
-crew         : solo
+crew         : 
 skipper      : Boran
 gps_track    : https://connect.garmin.com/modern/activity/7771674292
 ---

@@ -13,7 +13,7 @@ duration_h         :  30
 max_speed          :   
 conditions   : perfect fresh breeze from cross-behind
 skipper      : Boran
-crew         : solo
+crew         : 
 ---
 Planned to cross Biscay after a night of easy and efficient sailing
 

@@ -12,7 +12,7 @@ offshore_percentage:
 duration_h         : 3
 max_speed          : 3.8
 conditions   : waves and tidal current as expected
-crew         : solo
+crew         : 
 skipper      : Boran
 gps_track    : https://connect.garmin.com/modern/activity/16069075776
 photos       : 

@@ -12,7 +12,7 @@ duration_h         : 30
 max_speed          :  7 
 conditions   : calm and sunny
 skipper      : Boran
-crew         : solo
+crew         : 
 photos       : https://photos.google.com/share/AF1QipMCwt8FA4Mh6bCErJ7wf6lyAxlRAAvaX18YGw-6YUZCSxOgXw6WWNDmNraTS3Ts-A?key=RXV1MXdlNUdKZGRfMXlrMWJoLUtqTWRHMnl0Q29B
 ---
 So calm that I cooked solar and unfolded the large solar panel.

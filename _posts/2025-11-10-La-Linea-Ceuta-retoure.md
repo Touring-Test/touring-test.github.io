@@ -14,7 +14,7 @@ offshore_percentage: 30
 duration_h         : 11
 max_speed          : 9.5
 conditions   : moderate breeze
-crew         : solo
+crew         : 
 skipper      : Boran
 gps_track    : https://connect.garmin.com/app/activity/20950828364
 photos       : https://photos.app.goo.gl/ZcUu9AdLeY1USQn48

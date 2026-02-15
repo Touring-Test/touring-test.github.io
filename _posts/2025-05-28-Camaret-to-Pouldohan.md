@@ -12,7 +12,7 @@ duration_h         : 28
 max_speed          :   
 conditions   : mostly light to gentle and cloudy; fresh breeze around the Raz du Sein
 skipper      : Boran
-crew         : solo
+crew         : 
 ---
 departure after fixing two beam lashings, tensioning all shrouds and improving the anchor system
 

@@ -13,7 +13,7 @@ duration_h         :  38
 max_speed          :   
 conditions   : strong to gale from behind
 skipper      : Boran
-crew         : solo
+crew         : 
 gps_track    : https://connect.garmin.com/modern/activity/9512322976
 ---
 I had been very nervous before this trip, for reasons unknown to me. 

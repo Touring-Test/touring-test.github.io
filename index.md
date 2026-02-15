@@ -12,25 +12,24 @@ layout: default
   {% assign total_tours = total_tours | plus: 1 %}
 {% endfor %}
 
-| ---            | --:               | --             |
-| Total Distance | {{ total_miles }} | nautical miles |
-| Total Time     | {{ total_hours | divided_by: 24 | round: 0 }} | days
-| Total #        | {{ total_tours }} | voyages |
+| ---            | --:                          | --              |
+| total distance | {{ total_miles }}            | nautical miles  |
+| total time     | {{ total_hours | round: 0 }} | hours           |
+| total #        | {{ total_tours }}            | logbook entries |
 
-## Tour Index
+## Passage Index
 
-|Date|from|via|off- shore %|to |dist (NM)|time (hours)|avg speed (kn)|Crew|Skipper|Vessel|hyper- links|
-|--- |--- |---|  :--:      |---| --:     | --:        | --:          |---|---|---|---| {%
+|Date|from|via|to |dist (NM)|time (hours)|avg speed (kn)|Crew|Skipper|Vessel|hyper- links|
+|--- |--- |---|---| --:     | --:        | --:          |--- |---    |---   |---         |{%
  for post in site.posts %}
 | [{{ post.date | date: "%Y-%m-%d" }}]({{ post.url | relative_url }}) | {{
  post.origin_locn         }} | {{ 
  post.via                 }} | {{ 
- post.offshore_percentage }} | {{ 
  post.terminus_locn       }} | {{ 
  post.distance_traveld_NM }} | {{ 
  post.duration_h          }} | {{ 
- post.distance_traveld_NM | times: 1.0 | divided_by: post.duration_h | round: 1 }} | {{
- post.crew                }} | {{
+ post.distance_traveld_NM | times: 1.0 | divided_by: post.duration_h | round: 1 }} | {%
+ if post.crew %}{{ post.crew }}{% else %}*solo*{% endif  %} | {{
  post.skipper             }} | {{
  post.tags[0] | split: '_' | last }} | {%
  if post.gps_track %} [track]({{  post.gps_track | relative_url }}) {%
