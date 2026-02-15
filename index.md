@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+{% assign sorted_by_distance = site.posts | sort: 'distance_traveld_NM' %}
+{% assign longest = sorted_by_distance | last %}
+
+**Longest voyage so far:** [{{ longest.date | date: "%Y-%m-%d" }}]({{ longest.url | relative_url }}) – {{ longest.distance_traveld_NM }} NM.
+
 ## Totals
 {% assign total_miles = 0 %}
 {% assign total_hours = 0 %}
