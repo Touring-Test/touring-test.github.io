@@ -24,6 +24,8 @@ Nice wind around force 6 from NNE, as expected. Windspeed slightly higher after 
 
 Waves were unexpectedly steep and choppy, causing a somewhat oncomfortable ride. Both sailors felt motion sickness(!)
 
+We sailed with midsail in 2nd reef and aftsail in 1st reef from the beginning. Especially with the choppy waves this was a good, conservative choice for an easy ride.
+
 Boran showed Clement how to boatsurf, which both enjoyed in long sessions.
 
 Waves were pushing the rigid SUP against the deck from below. 1 fender between SUP and deck not sufficient - try 2 next time.
