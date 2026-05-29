@@ -8,7 +8,7 @@ terminus_locn: Playa Francesca
 terminus_moor: anchor
 distance_planned_NM: 
 distance_traveld_NM: 25
-offshore_percentage:  0
+offshore_percentage:  
 duration_h         :  7
 max_speed          :  7.7
 conditions   : perfectly nice and easy daysail from anchor to anchor
