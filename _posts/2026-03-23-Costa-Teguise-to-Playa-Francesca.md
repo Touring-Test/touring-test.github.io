@@ -14,7 +14,7 @@ max_speed          :  7.7
 conditions   : perfectly nice and easy daysail from anchor to anchor
 crew         : Katerina
 skipper      : Boran
-gps_track    : 
+gps_track    : https://connect.garmin.com/app/activity/22273183188
 ---
 
 departure with little engine power, arrival exclusively under sail;
